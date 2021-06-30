@@ -1,0 +1,47 @@
+//<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
+@import "nullstyle.scss";
+//====================================================
+.wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.filter {
+	padding: 20px 0;
+}
+.filter__title {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.filter__buttons {
+	margin-bottom: 20px;
+}
+.btn {
+	color: #000;
+    background-color: #f1f1f1;
+	padding: 8px 16px;
+	&:hover {
+		background-color: #ccc;
+	}
+}
+.active {
+	background-color: #999;
+}
+.filter__list {
+	display: flex;
+	margin: 0 -10px;
+}
+.item {
+	width: 70px;
+    color: #ffffff;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 10px;
+}
+.item__car {
+	background-color: #2196F3;
+}
+.item__animal {
+	background-color: #059862;
+}
