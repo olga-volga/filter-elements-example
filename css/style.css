@@ -47,40 +47,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .filter {
   padding: 20px 0; }
-
-.filter__title {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 20px; }
-
-.filter__buttons {
-  margin-bottom: 20px; }
-
-.btn {
-  color: #000;
-  background-color: #f1f1f1;
-  padding: 8px 16px; }
-  .btn:hover {
-    background-color: #ccc; }
-
-.active {
-  background-color: #999; }
-
-.filter__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 -10px; }
-
-.item {
-  width: 70px;
-  color: #ffffff;
-  line-height: 70px;
-  text-align: center;
-  margin: 0 10px; }
-
-.item__car {
-  background-color: #2196F3; }
-
-.item__animal {
-  background-color: #059862; }
+  .filter__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px; }
+  .filter__buttons {
+    margin-bottom: 20px; }
+  .filter .btn {
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 8px 16px; }
+    .filter .btn:hover {
+      background-color: #ccc; }
+  .filter .active {
+    background-color: #999; }
+  .filter__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -10px; }
+  .filter .item {
+    width: 70px;
+    color: #ffffff;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 10px; }
+  .filter .item__car {
+    background-color: #2196F3; }
+  .filter .item__animal {
+    background-color: #059862; }
